@@ -56,16 +56,17 @@
       - title: TPCDS
       - title: TPCH
       - title: 
-      - title: supports Table Statistics (*)
+      - title: supports Table Statistics *
 
 - title: Table Statistics
   color: EC5f67
   items:
       - title:
-      - title: Trino supports statistics based optimizations for queries. For a query to take advantage of these optimizations, Trino must have statistical information for the tables in that query. Table statistics are provided to the query planner by connectors. 
+        sub-title: Trino supports statistics based optimizations for queries. For a query to take advantage of these optimizations, Trino must have statistical information for the tables in that query. Table statistics are provided to the query planner by connectors. 
       - title:
       - title: SHOW STATS
-      - title: SHOW STATS FOR table | SHOW STATS FOR (query)
+      - title: SHOW STATS FOR table
+      - title: SHOW STATS FOR (query)
       - title: 
       - title: Returns approximated statistics for the named table or for the results of a query. Returns NULL for any statistics that are not populated or unavailable on the data source.
       - title:   
@@ -74,83 +75,62 @@
       - title: 
       - title: Collects table and column statistics for a given table. The optional WITH clause can be used to provide connector-specific properties.
 
-- title: Card 6
-  sub-title: Sub Title
+- title: SQL Language
   color: 8D89D1
   items:
-      - title: Item 1
-        sub-title: A short description
-        url: http://www.google.com
+      - title: 
+      - title: Trino is an ANSI SQL compliant query engine. This standard compliance allows Trino users to integrate their favorite data tools, including BI and ETL tools with any underlying data source.
 
-      - title: Item 2
-        sub-title: A short description
-        url: http://www.google.com
 
-      - title: A short description
-        sub-title: 
-        url: http://www.google.com
-
-- title: Card 7
-  sub-title: Sub Title
+- title: Data types
   color: EAB853
   items:
-      - title: Item 1
-        sub-title: A short description
-        url: http://www.google.com
+      - title: Boolean
+      - title: Integer
+      - title: Floating-point
+      - title: Fixed-precision
+      - title: String
+      - title: Date and time
+      - title: Structural
+      - title: Network address
+      - title: UUID
+      - title: HyperLogLog
+      - title: SetDigest
+      - title: Quantile digest
+      - title: T-Digest
 
-      - title: Item 2
-        sub-title: A short description
-        url: http://www.google.com
 
-      - title: A short description
-        sub-title: 
-        url: http://www.google.com
-
-- title: Card 8
-  sub-title: Sub Title
+- title: Functions and operators
   color: 89B784
   items:
-      - title: Item 1
-        sub-title: A short description
-        url: http://www.google.com
-
-      - title: Item 2
-        sub-title: A short description
-        url: http://www.google.com
-
-      - title: Item 3
-        sub-title: 
-        url: http://www.google.com
-
-- title: Card 9
-  sub-title: Sub Title
-  color: 5FB3B3
-  items:
-      - title: Item 1
-        sub-title: A short description
-        url: http://www.google.com
-
-      - title: Item 2
-        sub-title: A short description
-        url: http://www.google.com
-
-      - title: Item 3
-        sub-title: 
-        url: http://www.google.com
-
-- title: Card 10
-  sub-title: Sub Title
-  color: EC5f67
-  items:
-      - title: Item 1
-        sub-title: A short description
-        url: http://www.google.com
-
-      - title: Item 2
-        sub-title: A short description
-        url: http://www.google.com
-
-      - title: Item 3
-        sub-title: 
-        url: http://www.google.com
- 
+      - title: Aggregate
+      - title: Array
+      - title: Binary
+      - title: Bitwise
+      - title: Color
+      - title: Comparison
+      - title: Conditional
+      - title: Conversion
+      - title: Date and time
+      - title: Decimal
+      - title: Geospatial
+      - title: HyperLogLog
+      - title: IP address
+      - title: JSON
+      - title: Lambda
+      - title: Logical
+      - title: Machine learning
+      - title: Map
+      - title: Math
+      - title: Quantile digest
+      - title: Regular expression
+      - title: Session
+      - title: Set digest
+      - title: String
+      - title: System
+      - title: Table
+      - title: Teradata
+      - title: T-Digest
+      - title: URL 
+      - title: UUID
+      - title: window
