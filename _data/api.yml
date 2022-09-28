@@ -1,42 +1,20 @@
-- title: Anchors
-  sub-title: 
-  color: aaaaaa
-  items:
-      - title: ^
-        sub-title: Start of string, or start of line in multi-line pattern
-        url: 
-
-      - title: \A
-        sub-title: Start of string
-        url: 
-
-      - title: $
-        sub-title: End of string, or end of line in multi-line pattern
-        url: 
-
 - title: Overview
-  sub-title: Sub Title
   color: F99157
   items:
       - title: 
-        sub-title: Trino is a distributed SQL query engine designed to query large data sets distributed over one or more heterogeneous data sources.
-        url: 
+        sub-title: ^Trino is a distributed SQL query engine designed to query large data sets distributed over one or more heterogeneous data sources.$
 
-- title: Card 3
-  sub-title: Sub Title
+- title: Trino Concepts
   color: 5FB3B3
   items:
-      - title: Item 1
-        sub-title: A short description
-        url: http://www.google.com
-
-      - title: Item 2
-        sub-title: A short description
-        url: http://www.google.com
-
-      - title: A short description
-        sub-title: 
-        url: http://www.google.com
+      - title: Server Types
+        sub-title: ^There are two types of Trino servers - coordinators and workers$
+      - title: Data Sources
+        sub-title: ^A data source is a system where data is retrieved from. You can query systems such as distributed object storage, RDBMS, NoSQL databases, document databases, and many others.$
+      - title: Catalogs
+        sub-title: ^Catalogs define and name the configuration to connect to and query a data source$
+      - title: Connectors
+        sub-title: ^A connector translates the query and storage concepts of an underlying data source, such as a relational database management system (RDBMS), object storage, or a key-value store, to the SQL and Trino concepts of tables, columns, rows and data types. These can be simple SQL-to-SQL translations and mappings, but also much more complicated translations from SQL to object storage or NoSQL systems.$
 
 - title: Card 4
   sub-title: Sub Title
