@@ -14,21 +14,13 @@
         sub-title: End of string, or end of line in multi-line pattern
         url: 
 
-- title: Card 2
+- title: Overview
   sub-title: Sub Title
   color: F99157
   items:
-      - title: Item 1
-        sub-title: A short description
-        url: http://www.google.com
-
-      - title: Item 2
-        sub-title: A short description
-        url: http://www.google.com
-
-      - title: A short description
-        sub-title: 
-        url: http://www.google.com
+      - title: 
+        sub-title: Trino is a distributed SQL query engine designed to query large data sets distributed over one or more heterogeneous data sources.
+        url: 
 
 - title: Card 3
   sub-title: Sub Title
