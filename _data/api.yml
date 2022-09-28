@@ -68,18 +68,19 @@
       - title: SHOW STATS FOR table
       - title: SHOW STATS FOR (query)
       - title: 
-      - title: Returns approximated statistics for the named table or for the results of a query. Returns NULL for any statistics that are not populated or unavailable on the data source.
+        sub-title: Returns approximated statistics for the named table or for the results of a query. Returns NULL for any statistics that are not populated or unavailable on the data source.
       - title:   
       - title: ANALYZE
       - title: ANALYZE table_name [WITH (property_name = expression [, ...])]
       - title: 
-      - title: Collects table and column statistics for a given table. The optional WITH clause can be used to provide connector-specific properties.
+        sub-title: Collects table and column statistics for a given table. The optional WITH clause can be used to provide connector-specific properties.
 
 - title: SQL Language
   color: 8D89D1
   items:
       - title: 
       - title: Trino is an ANSI SQL compliant query engine. This standard compliance allows Trino users to integrate their favorite data tools, including BI and ETL tools with any underlying data source.
+      - title: 
 
 
 - title: Data types
@@ -100,7 +101,7 @@
       - title: T-Digest
 
 
-- title: Functions and operators
+- title: Functions-Operators
   color: 89B784
   items:
       - title: Aggregate
