@@ -2,51 +2,73 @@
   color: F99157
   items:
       - title: 
-        sub-title: ^Trino is a distributed SQL query engine designed to query large data sets distributed over one or more heterogeneous data sources.$
+        sub-title: Trino is a distributed SQL query engine designed to query large data sets distributed over one or more heterogeneous data sources.
 
 - title: Trino Concepts
   color: 5FB3B3
   items:
       - title: Server Types
-        sub-title: ^There are two types of Trino servers - coordinators and workers$
+        sub-title: There are two types of Trino servers - coordinators and workers
       - title: Data Sources
-        sub-title: ^A data source is a system where data is retrieved from. You can query systems such as distributed object storage, RDBMS, NoSQL databases, document databases, and many others.$
+        sub-title: A data source is a system where data is retrieved from. You can query systems such as distributed object storage, RDBMS, NoSQL databases, document databases, and many others.
       - title: Catalogs
-        sub-title: ^Catalogs define and name the configuration to connect to and query a data source$
+        sub-title: Catalogs define and name the configuration to connect to and query a data source
       - title: Connectors
-        sub-title: ^A connector translates the query and storage concepts of an underlying data source, such as a relational database management system (RDBMS), object storage, or a key-value store, to the SQL and Trino concepts of tables, columns, rows and data types. These can be simple SQL-to-SQL translations and mappings, but also much more complicated translations from SQL to object storage or NoSQL systems.$
+        sub-title: A connector translates the query and storage concepts of an underlying data source, such as a relational database management system (RDBMS), object storage, or a key-value store, to the SQL and Trino concepts of tables, columns, rows and data types. These can be simple SQL-to-SQL translations and mappings, but also much more complicated translations from SQL to object storage or NoSQL systems.
 
-- title: Card 4
-  sub-title: Sub Title
+- title: Trino Connectors
+  sub-title: * supports Table Statistics
   color: 6699CC
   items:
-      - title: Item 1
-        sub-title: A short description
-        url: http://www.google.com
+      - title: Accumulo
+      - title: Atop
+      - title: BigQuery
+      - title: Black Hole
+      - title: Cassandra
+      - title: ClickHouse
+      - title: Delta Lake *
+      - title: Druid
+      - title: Elasticsearch
+      - title: Google Sheets
+      - title: Hive *
+      - title: Iceberg *
+      - title: JMX
+      - title: Kafka
+      - title: Kinesis
+      - title: Kudu
+      - title: Local File
+      - title: MariaDB
+      - title: Memory
+      - title: MongoDB
+      - title: MySQL
+      - title: Oracle
+      - title: Phoenix
+      - title: Pinot
+      - title: PostgreSQL *
+      - title: Prometheus
+      - title: Redis
+      - title: Redshift
+      - title: SingleStore
+      - title: SQL Server *
+      - title: Thrift
+      - title: TPCDS
+      - title: TPCH
 
-      - title: Item 2
-        sub-title: A short description
-        url: http://www.google.com
-
-      - title: A short description
-        sub-title: 
-        url: http://www.google.com
-
-- title: Card 5
-  sub-title: Sub Title
+- title: Table Statistics
   color: EC5f67
   items:
-      - title: Item 1
-        sub-title: A short description
-        url: http://www.google.com
+      - title:
+        sub-title: Trino supports statistics based optimizations for queries. For a query to take advantage of these optimizations, Trino must have statistical information for the tables in that query. Table statistics are provided to the query planner by connectors. 
 
-      - title: Item 2
-        sub-title: A short description
-        url: http://www.google.com
-
-      - title: A short description
-        sub-title: 
-        url: http://www.google.com
+      - title: SHOW STATS
+        sub-title: SHOW STATS FOR table | SHOW STATS FOR (query)
+      - title: 
+        sub-title: Returns approximated statistics for the named table or for the results of a query. Returns NULL for any statistics that are not populated or unavailable on the data source.
+        
+      - title: ANALYZE
+        sub-title: ANALYZE table_name [WITH (property_name = expression [, ...])]
+      - title: 
+        sub-title: Collects table and column statistics for a given table. The optional WITH clause can be used to provide connector-specific properties.
 
 - title: Card 6
   sub-title: Sub Title
