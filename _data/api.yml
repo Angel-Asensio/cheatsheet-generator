@@ -78,8 +78,9 @@
 - title: SQL Language
   color: 8D89D1
   items:
-      - title: 
-      - title: Trino is an ANSI SQL compliant query engine. This standard compliance allows Trino users to integrate their favorite data tools, including BI and ETL tools with any underlying data source.
+      - title:
+      - title:  
+        sub-title: Trino is an ANSI SQL compliant query engine. This standard compliance allows Trino users to integrate their favorite data tools, including BI and ETL tools with any underlying data source.
       - title: 
 
 
