@@ -1,6 +1,6 @@
 # A cheatsheet generator builder
 
-Demo: https://danielschmitz.com.br/cheatsheet-generator/
+Demo: https://angel-asensio.github.io/trino-cheatsheet/
 
 ## How to works
 
