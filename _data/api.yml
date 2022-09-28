@@ -17,7 +17,7 @@
         sub-title: A connector translates the query and storage concepts of an underlying data source, such as a relational database management system (RDBMS), object storage, or a key-value store, to the SQL and Trino concepts of tables, columns, rows and data types. These can be simple SQL-to-SQL translations and mappings, but also much more complicated translations from SQL to object storage or NoSQL systems.
 
 - title: Trino Connectors
-  sub-title: * supports Table Statistics
+  sub-title: supports Table Statistics (*)
   color: 6699CC
   items:
       - title: Accumulo
