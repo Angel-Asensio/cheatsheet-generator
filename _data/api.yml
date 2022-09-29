@@ -136,3 +136,20 @@
       - title: URL 
       - title: UUID
       - title: window
+
+- title: Links
+  sub-title: 
+  color: aaaaaa
+  items:
+      - title: Main Documentation
+        sub-title: https://trino.io/docs/current/index.html
+        url: https://trino.io/docs/current/index.html
+
+      - title: Trino Connectors
+        sub-title: https://trino.io/docs/current/connector.html
+        url: https://trino.io/docs/current/connector.html
+
+      - title: 
+
+      - title: Date
+        sub-title: March 2022
