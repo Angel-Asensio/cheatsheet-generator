@@ -42,7 +42,7 @@
       - title: MariaDB
       - title: Memory
       - title: MongoDB
-      - title: MySQL
+      - title: MySQL *
       - title: Oracle
       - title: Phoenix
       - title: Pinot
