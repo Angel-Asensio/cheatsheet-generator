@@ -1,5 +1,4 @@
 - title: Overview
-  url: https://trino.io/docs/current/overview.html
   color: F99157
   items:
       - title: 
@@ -7,7 +6,6 @@
         urL: https://trino.io/docs/current/overview.html
 
 - title: Trino Concepts
-  url: https://trino.io/docs/current/overview/concepts.html
   color: 5FB3B3
   items:
       - title: Server Types
@@ -235,17 +233,9 @@
       - title: Window
         url: https://trino.io/docs/current/functions/window.html
 
-- title: Links
+- title:
   sub-title: 
   color: aaaaaa
   items:
-      - title: Main Documentation
-        url: https://trino.io/docs/current/index.html
-
-      - title: Trino Connectors
-        url: https://trino.io/docs/current/connector.html
-
-      - title: 
-
       - title: Date
         sub-title: October 2022
