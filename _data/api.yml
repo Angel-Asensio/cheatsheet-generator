@@ -24,6 +24,7 @@
       - title:
       - title: Connectors
         sub-title: A connector translates the query and storage concepts of an underlying data source, such as a relational database management system (RDBMS), object storage, or a key-value store, to the SQL and Trino concepts of tables, columns, rows and data types. These can be simple SQL-to-SQL translations and mappings, but also much more complicated translations from SQL to object storage or NoSQL systems.
+        url: https://trino.io/docs/current/develop/connectors.html
       - title: Query Execution Model
         sub-title: Trino executes SQL statements and turns these statements into queries, that are executed across a distributed cluster of coordinator and workers.
         url: https://trino.io/docs/current/overview/concepts.html#query-execution-model
@@ -107,15 +108,21 @@
   items:
       - title:
         sub-title: Trino supports statistics based optimizations for queries. For a query to take advantage of these optimizations, Trino must have statistical information for the tables in that query. Table statistics are provided to the query planner by connectors. 
+        url: https://trino.io/docs/current/optimizer/statistics.html
       - title:
       - title: SHOW STATS
+        url: https://trino.io/docs/current/sql/show-stats.html
       - title: SHOW STATS FOR table
+        url: https://trino.io/docs/current/sql/show-stats.html
       - title: SHOW STATS FOR (query)
+        url: https://trino.io/docs/current/sql/show-stats.html
       - title: 
         sub-title: Returns approximated statistics for the named table or for the results of a query. Returns NULL for any statistics that are not populated or unavailable on the data source.
       - title:   
       - title: ANALYZE
+        url: https://trino.io/docs/current/sql/analyze.html
       - title: ANALYZE table_name [WITH (property_name = expression [, ...])]
+        url: https://trino.io/docs/current/sql/analyze.html
       - title: 
         sub-title: Collects table and column statistics for a given table. The optional WITH clause can be used to provide connector-specific properties.
 
