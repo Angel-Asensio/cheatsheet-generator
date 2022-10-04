@@ -116,6 +116,7 @@
         url: https://trino.io/docs/current/sql/show-stats.html
       - title: 
         sub-title: Returns approximated statistics for the named table or for the results of a query. Returns NULL for any statistics that are not populated or unavailable on the data source.
+        url: https://trino.io/docs/current/sql/show-stats.html#description
       - title:   
       - title: ANALYZE
         url: https://trino.io/docs/current/sql/analyze.html
@@ -123,6 +124,7 @@
         url: https://trino.io/docs/current/sql/analyze.html
       - title: 
         sub-title: Collects table and column statistics for a given table. The optional WITH clause can be used to provide connector-specific properties.
+        url: https://trino.io/docs/current/sql/analyze.html#description
 
 - title: SQL Language
   color: 8D89D1
@@ -239,3 +241,4 @@
   items:
       - title: Date
         sub-title: October 2022
+      - title: 
