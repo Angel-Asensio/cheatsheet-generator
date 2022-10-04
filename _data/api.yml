@@ -1,60 +1,104 @@
 - title: Overview
+  url: https://trino.io/docs/current/overview.html
   color: F99157
   items:
       - title: 
         sub-title: Trino is a distributed SQL query engine designed to query large data sets distributed over one or more heterogeneous data sources.
+        urL: https://trino.io/docs/current/overview.html
 
 - title: Trino Concepts
+  url: https://trino.io/docs/current/overview/concepts.html
   color: 5FB3B3
   items:
       - title: Server Types
         sub-title: There are two types of Trino servers - coordinators and workers
+        url: https://trino.io/docs/current/overview/concepts.html#server-types
       - title:
       - title: Data Sources
         sub-title: A data source is a system where data is retrieved from. You can query systems such as distributed object storage, RDBMS, NoSQL databases, document databases, and many others.
+        url: https://trino.io/docs/current/overview/concepts.html#data-sources
       - title:
       - title: Catalogs
         sub-title: Catalogs define and name the configuration to connect to and query a data source
+        url: https://trino.io/docs/current/overview/concepts.html#catalog
       - title:
       - title: Connectors
         sub-title: A connector translates the query and storage concepts of an underlying data source, such as a relational database management system (RDBMS), object storage, or a key-value store, to the SQL and Trino concepts of tables, columns, rows and data types. These can be simple SQL-to-SQL translations and mappings, but also much more complicated translations from SQL to object storage or NoSQL systems.
+      - title: Query Execution Model
+        sub-title: Trino executes SQL statements and turns these statements into queries, that are executed across a distributed cluster of coordinator and workers.
+        url: https://trino.io/docs/current/overview/concepts.html#query-execution-model
 
 - title: Trino Connectors
   color: 6699CC
   items:
       - title: Accumulo
+        url: https://trino.io/docs/current/connector/accumulo.html
       - title: Atop
+        url: https://trino.io/docs/current/connector/atop.html
       - title: BigQuery
+        url: https://trino.io/docs/current/connector/bigquery.html
       - title: Black Hole
+        url: https://trino.io/docs/current/connector/blackhole.html
       - title: Cassandra
+        url: https://trino.io/docs/current/connector/cassandra.html
       - title: ClickHouse
+        url: https://trino.io/docs/current/connector/clickhouse.html
       - title: Delta Lake *
+        url: https://trino.io/docs/current/connector/delta-lake.html
       - title: Druid
+        url: https://trino.io/docs/current/connector/druid.html
       - title: Elasticsearch
+        url: https://trino.io/docs/current/connector/elasticsearch.html
       - title: Google Sheets
+        url: https://trino.io/docs/current/connector/googlesheets.html
       - title: Hive *
+        url: https://trino.io/docs/current/connector/hive.html
       - title: Iceberg *
+        url: https://trino.io/docs/current/connector/iceberg.html
       - title: JMX
+        url: https://trino.io/docs/current/connector/jmx.html
       - title: Kafka
+        url: https://trino.io/docs/current/connector/kafka.html
       - title: Kinesis
+        url: https://trino.io/docs/current/connector/kinesis.html
       - title: Kudu
+        url: https://trino.io/docs/current/connector/kudu.html
       - title: Local File
+        url: https://trino.io/docs/current/connector/localfile.html
       - title: MariaDB
+        url: https://trino.io/docs/current/connector/mariadb.html
       - title: Memory
+        url: https://trino.io/docs/current/connector/memory.html
       - title: MongoDB
+        url: https://trino.io/docs/current/connector/mongodb.html
       - title: MySQL *
+        url: https://trino.io/docs/current/connector/mysql.html
       - title: Oracle
+        url: https://trino.io/docs/current/connector/oracle.html
       - title: Phoenix
+        url: https://trino.io/docs/current/connector/phoenix.html
       - title: Pinot
+        url: https://trino.io/docs/current/connector/pinot.html
       - title: PostgreSQL *
+        url: https://trino.io/docs/current/connector/postgresql.html
       - title: Prometheus
+        url: https://trino.io/docs/current/connector/prometheus.html
       - title: Redis
+        url: https://trino.io/docs/current/connector/redis.html
       - title: Redshift
+        url: https://trino.io/docs/current/connector/redshift.html
       - title: SingleStore
+        url: https://trino.io/docs/current/connector/memsql.html
       - title: SQL Server *
+        url: https://trino.io/docs/current/connector/sqlserver.html
+      - title: System
+        url: https://trino.io/docs/current/connector/system.html
       - title: Thrift
+        url: https://trino.io/docs/current/connector/thrift.html
       - title: TPCDS
+        url: https://trino.io/docs/current/connector/tpcds.html
       - title: TPCH
+        url: https://trino.io/docs/current/connector/tpch.html
       - title: 
       - title: supports Table Statistics *
 
@@ -81,75 +125,120 @@
       - title:
       - title:  
         sub-title: Trino is an ANSI SQL compliant query engine. This standard compliance allows Trino users to integrate their favorite data tools, including BI and ETL tools with any underlying data source.
+        url: https://trino.io/docs/current/language.html
       - title: 
 
 
 - title: Data types
+  url: https://trino.io/docs/current/language/types.html
   color: EAB853
   items:
       - title: Boolean
+        url: https://trino.io/docs/current/language/types.html#boolean
       - title: Integer
+        url: https://trino.io/docs/current/language/types.html#integer
       - title: Floating-point
+        url: https://trino.io/docs/current/language/types.html#floating-point
       - title: Fixed-precision
+        url: https://trino.io/docs/current/language/types.html#fixed-precision
       - title: String
+        url: https://trino.io/docs/current/language/types.html#string
       - title: Date and time
+        url: https://trino.io/docs/current/language/types.html#date-and-time
       - title: Structural
+        url: https://trino.io/docs/current/language/types.html#structural
       - title: Network address
+        url: https://trino.io/docs/current/language/types.html#network-address
       - title: UUID
+        url: https://trino.io/docs/current/language/types.html#uuid
       - title: HyperLogLog
+        url: https://trino.io/docs/current/language/types.html#hyperloglog
       - title: SetDigest
+        url: https://trino.io/docs/current/language/types.html#setdigest
       - title: Quantile digest
+        url: https://trino.io/docs/current/language/types.html#quantile-digest
       - title: T-Digest
+        url: https://trino.io/docs/current/language/types.html#tdigest
 
 
-- title: Functions-Operators
+- title: Functions&Operators
+  url: https://trino.io/docs/current/functions.html
   color: 89B784
   items:
       - title: Aggregate
+        url: https://trino.io/docs/current/functions/aggregate.html
       - title: Array
+        url: https://trino.io/docs/current/functions/array.html
       - title: Binary
+        url: https://trino.io/docs/current/functions/binary.html
       - title: Bitwise
+        url: https://trino.io/docs/current/functions/bitwise.html
       - title: Color
+        url: https://trino.io/docs/current/functions/color.html
       - title: Comparison
+        url: https://trino.io/docs/current/functions/comparison.html
       - title: Conditional
+        url: https://trino.io/docs/current/functions/conditional.html
       - title: Conversion
+        url: https://trino.io/docs/current/functions/conversion.html
       - title: Date and time
+        url: https://trino.io/docs/current/functions/datetime.html
       - title: Decimal
+        url: https://trino.io/docs/current/functions/decimal.html
       - title: Geospatial
+        url: https://trino.io/docs/current/functions/geospatial.html
       - title: HyperLogLog
+        url: https://trino.io/docs/current/functions/hyperloglog.html
       - title: IP address
+        url: https://trino.io/docs/current/functions/ipaddress.html
       - title: JSON
+        url: https://trino.io/docs/current/functions/json.html
       - title: Lambda
+        url: https://trino.io/docs/current/functions/lambda.html
       - title: Logical
+        url: https://trino.io/docs/current/functions/logical.html
       - title: Machine learning
+        url: https://trino.io/docs/current/functions/ml.html
       - title: Map
+        url: https://trino.io/docs/current/functions/map.html
       - title: Math
+        url: https://trino.io/docs/current/functions/math.html
       - title: Quantile digest
+        url: https://trino.io/docs/current/functions/qdigest.html
       - title: Regular expression
+        url: https://trino.io/docs/current/functions/regexp.html
       - title: Session
+        url: https://trino.io/docs/current/functions/session.html
       - title: Set digest
+        url: https://trino.io/docs/current/functions/setdigest.html
       - title: String
+        url: https://trino.io/docs/current/functions/string.html
       - title: System
+        url: https://trino.io/docs/current/functions/system.html
       - title: Table
+        url: https://trino.io/docs/current/functions/table.html
       - title: Teradata
+        url: https://trino.io/docs/current/functions/teradata.html
       - title: T-Digest
-      - title: URL 
+        url: https://trino.io/docs/current/functions/tdigest.html
+      - title: URL
+        url: https://trino.io/docs/current/functions/url.html
       - title: UUID
-      - title: window
+        url: https://trino.io/docs/current/functions/uuid.html
+      - title: Window
+        url: https://trino.io/docs/current/functions/window.html
 
 - title: Links
   sub-title: 
   color: aaaaaa
   items:
       - title: Main Documentation
-        sub-title: https://trino.io/docs/current/index.html
         url: https://trino.io/docs/current/index.html
 
       - title: Trino Connectors
-        sub-title: https://trino.io/docs/current/connector.html
         url: https://trino.io/docs/current/connector.html
 
       - title: 
 
       - title: Date
-        sub-title: March 2022
+        sub-title: October 2022
