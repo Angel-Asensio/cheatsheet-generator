@@ -99,7 +99,6 @@
         url: https://trino.io/docs/current/connector/tpcds.html
       - title: TPCH
         url: https://trino.io/docs/current/connector/tpch.html
-      - title: 
       - title: supports Table Statistics *
 
 - title: Table Statistics
@@ -117,8 +116,7 @@
         url: https://trino.io/docs/current/sql/show-stats.html
       - title: 
         sub-title: Returns approximated statistics for the named table or for the results of a query. Returns NULL for any statistics that are not populated or unavailable on the data source.
-        url: https://trino.io/docs/current/sql/show-stats.html#description
-      - title:   
+        url: https://trino.io/docs/current/sql/show-stats.html#description 
       - title: ANALYZE
         url: https://trino.io/docs/current/sql/analyze.html
       - title: ANALYZE table_name [WITH (property_name = expression [, ...])]
