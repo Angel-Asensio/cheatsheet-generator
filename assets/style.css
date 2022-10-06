@@ -1,9 +1,9 @@
 /*! minireset.css v0.0.2 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*{box-sizing:inherit}*:before,*:after{box-sizing:inherit}img,embed,object,audio,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
 html, body {
-    background-color: #343D46;
+    background-color: #66ccff;
   }
   body {
-    color: white;
+    color: black;
     font-size: 16px;
     font-family: Helvetica, Arial;
   }
@@ -41,7 +41,7 @@ html, body {
   .menu-root > li > a,
   .menu-root > li > a > small {
     font-size: 14px;
-    color: #343D46;
+    color: #66ccff;
   }
   
   .menu-root > li > a > small {
@@ -49,7 +49,7 @@ html, body {
   }
   
   .menu-root ul li a small {
-    color: #ddd;
+    color: black;
     pointer-events: none;
   }
 
@@ -70,7 +70,7 @@ html, body {
     font-style: normal;
     float: right;
     color: #eee;
-    background-color: #343D46;
+    background-color: #66ccff;
     padding: 2px 4px;
     border-radius: 5px;
   }
