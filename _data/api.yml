@@ -130,11 +130,9 @@
 - title: SQL Language
   color: 8D89D1
   items:
-      - title:
       - title:  
         sub-title: Trino is an ANSI SQL compliant query engine. This standard compliance allows Trino users to integrate their favorite data tools, including BI and ETL tools with any underlying data source.
         url: https://trino.io/docs/current/language.html
-      - title: 
 
 
 - title: Data types
@@ -236,10 +234,9 @@
       - title: Window
         url: https://trino.io/docs/current/functions/window.html
 
-- title:
+- title: Edition
   sub-title: 
   color: aaaaaa
   items:
-      - title: Date
-        sub-title: October 2022
       - title: 
+        sub-title: October 2022
