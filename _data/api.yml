@@ -1,13 +1,13 @@
 
 - title: Overview
-  color: F99157
+  color: fddece
   items:
       - title: 
         sub-title: Trino is a distributed SQL query engine designed to query large data sets distributed over one or more heterogeneous data sources.
         urL: https://trino.io/docs/current/overview.html
 
 - title: Trino Concepts
-  color: 5FB3B3
+  color: dcefef
   items:
       - title: Server Types
         sub-title: There are two types of Trino servers - coordinators and workers
@@ -29,7 +29,7 @@
         url: https://trino.io/docs/current/overview/concepts.html#query-execution-model
 
 - title: Trino Connectors
-  color: 6699CC
+  color: d9e6f2
   items:
       - title: Accumulo
         url: https://trino.io/docs/current/connector/accumulo.html
@@ -103,7 +103,7 @@
       - title: supports Table Statistics *
 
 - title: Table Statistics
-  color: EC5f67
+  color: fad1d3
   items:
       - title:
         sub-title: Trino supports statistics based optimizations for queries. For a query to take advantage of these optimizations, Trino must have statistical information for the tables in that query. Table statistics are provided to the query planner by connectors. 
@@ -128,7 +128,7 @@
         url: https://trino.io/docs/current/sql/analyze.html#description
 
 - title: SQL Language
-  color: 8D89D1
+  color: dbdaf1
   items:
       - title:  
         sub-title: Trino is an ANSI SQL compliant query engine. This standard compliance allows Trino users to integrate their favorite data tools, including BI and ETL tools with any underlying data source.
@@ -137,7 +137,7 @@
 
 - title: Data types
   url: https://trino.io/docs/current/language/types.html
-  color: EAB853
+  color: f6e2bc
   items:
       - title: Boolean
         url: https://trino.io/docs/current/language/types.html#boolean
@@ -169,7 +169,7 @@
 
 - title: Functions&Operators
   url: https://trino.io/docs/current/functions.html
-  color: 89B784
+  color: d1e2cf
   items:
       - title: Aggregate
         url: https://trino.io/docs/current/functions/aggregate.html
@@ -236,7 +236,7 @@
 
 - title: Edition
   sub-title: 
-  color: aaaaaa
+  color: e6e6e6
   items:
       - title: 
         sub-title: October 2022
