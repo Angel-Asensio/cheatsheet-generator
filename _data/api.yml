@@ -17,13 +17,22 @@
         sub-title: A data source is a system where data is retrieved from. You can query systems such as distributed object storage, RDBMS, NoSQL databases, document databases, and many others.
         url: https://trino.io/docs/current/overview/concepts.html#data-sources
       - title:
-      - title: Catalogs
-        sub-title: Catalogs define and name the configuration to connect to and query a data source
-        url: https://trino.io/docs/current/overview/concepts.html#catalog
-      - title:
       - title: Connectors
         sub-title: A connector translates the query and storage concepts of an underlying data source, such as a relational database management system (RDBMS), object storage, or a key-value store, to the SQL and Trino concepts of tables, columns, rows and data types. These can be simple SQL-to-SQL translations and mappings, but also much more complicated translations from SQL to object storage or NoSQL systems.
         url: https://trino.io/docs/current/develop/connectors.html
+      - title:
+      - title: Catalogs
+        sub-title: Catalogs define and name the configuration to connect to and query a data source.
+        url: https://trino.io/docs/current/overview/concepts.html#catalog
+      - title:  
+      - title: Schema
+        sub-title: Schemas are a way to organize tables. Together, a catalog and schema define a set of tables that can be queried.
+        url: https://trino.io/docs/current/overview/concepts.html#schema
+      - title:  
+      - title: Table
+        sub-title: A table is a set of unordered rows, which are organized into named columns with types. This is the same as in any relational database. The mapping from source data to tables is defined by the connector.
+        url: https://trino.io/docs/current/overview/concepts.html#table
+      - title:
       - title: Query Execution Model
         sub-title: Trino executes SQL statements and turns these statements into queries, that are executed across a distributed cluster of coordinator and workers.
         url: https://trino.io/docs/current/overview/concepts.html#query-execution-model
