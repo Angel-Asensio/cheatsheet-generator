@@ -62,8 +62,12 @@
         url: https://trino.io/docs/current/connector/googlesheets.html
       - title: Hive *
         url: https://trino.io/docs/current/connector/hive.html
+      - title: Hudi
+        url: https://trino.io/docs/current/connector/hudi.html
       - title: Iceberg *
         url: https://trino.io/docs/current/connector/iceberg.html
+      - title: Ignite 
+        url: https://trino.io/docs/current/connector/ignite.html
       - title: JMX
         url: https://trino.io/docs/current/connector/jmx.html
       - title: Kafka
@@ -246,4 +250,4 @@
   color: e6e6e6
   items:
       - title: 
-        sub-title: October 2022
+        sub-title: May 2023
