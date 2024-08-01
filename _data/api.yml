@@ -58,6 +58,8 @@
         url: https://trino.io/docs/current/connector/druid.html
       - title: Elasticsearch
         url: https://trino.io/docs/current/connector/elasticsearch.html
+      - title: Exasol
+        url: https://trino.io/docs/current/connector/exasol.html
       - title: Google Sheets
         url: https://trino.io/docs/current/connector/googlesheets.html
       - title: Hive *
@@ -86,6 +88,8 @@
         url: https://trino.io/docs/current/connector/mongodb.html
       - title: MySQL *
         url: https://trino.io/docs/current/connector/mysql.html
+      - title: OpenSearch
+        url: https://trino.io/docs/current/connector/opensearch.html  
       - title: Oracle
         url: https://trino.io/docs/current/connector/oracle.html
       - title: Phoenix
@@ -112,6 +116,7 @@
         url: https://trino.io/docs/current/connector/tpcds.html
       - title: TPCH
         url: https://trino.io/docs/current/connector/tpch.html
+
       - title: supports Table Statistics *
 
 - title: Table Statistics
@@ -178,7 +183,7 @@
         url: https://trino.io/docs/current/language/types.html#tdigest
 
 
-- title: Functions&Operators
+- title: Functions & Operators
   url: https://trino.io/docs/current/functions.html
   color: d1e2cf
   items:
@@ -250,4 +255,4 @@
   color: e6e6e6
   items:
       - title: 
-        sub-title: May 2023
+        sub-title: August 2024
